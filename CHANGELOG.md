@@ -4,7 +4,7 @@ Sve promene između verzija su dokumentovane ovde.
 
 ---
 
-## [5.0.0-beta] — Trenutna verzija
+## [5.0.0-beta] — 18.05.2026
 
 ### Novo
 - Popup prozori sa mini toolbarom (back / forward / close)
@@ -17,7 +17,7 @@ Sve promene između verzija su dokumentovane ovde.
 
 ---
 
-## [2.0.0-alpha] — Prva javna verzija
+## [2.0.0-alpha] — 01.05.2026
 
 ### Osnova
 - Multi-pane prikaz AI servisa (1–5 panela)
