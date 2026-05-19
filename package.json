@@ -1,0 +1,30 @@
+{
+  "name": "ai-council",
+  "version": "5.0.0",
+  "description": "Multi-pane AI browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.aicouncil.app",
+    "productName": "AI Council",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "directories": { "output": "dist" },
+    "extraResources": [
+      { "from": "node_modules/electron/dist/ffmpeg.dll", "to": "../ffmpeg.dll" }
+    ]
+  }
+}
