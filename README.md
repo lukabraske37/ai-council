@@ -6,9 +6,9 @@
 
 **Multi-pane AI browser — open ChatGPT, Claude, Gemini, Grok and more side by side.**
 
-[![Version](https://img.shields.io/badge/version-5.0.0--beta-5b6ef5?style=flat-square)](https://github.com/yourusername/ai-council/releases)
+[![Version](https://img.shields.io/badge/version-5.0.0--beta-5b6ef5?style=flat-square)](https://github.com/lukabraske37/ai-council/releases)
 [![Electron](https://img.shields.io/badge/Electron-29-47848F?style=flat-square&logo=electron&logoColor=white)](https://www.electronjs.org/)
-[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)](https://github.com/yourusername/ai-council/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)](https://github.com/lukabraske37/ai-council/releases)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![Status](https://img.shields.io/badge/status-beta-orange?style=flat-square)]()
 
