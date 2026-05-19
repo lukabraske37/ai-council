@@ -70,7 +70,7 @@ Umesto da skačeš između tabova i kopiraš odgovore tamo-vamo — vidiš sve o
 ### Pokretanje
 ```bash
 # Kloniraj repo
-git clone https://github.com/yourusername/ai-council.git
+git clone https://github.com/lukabraske37/ai-council.git
 cd ai-council
 
 # Instaliraj zavisnosti
