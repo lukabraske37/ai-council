@@ -97,12 +97,10 @@ ai-council/
 ├── ai-config.js         # Lista AI servisa i konfiguracija
 ├── package.json
 ├── renderer/
-│   ├── index.html       # Glavni UI
-│   ├── app.js           # Renderer logika (toolbar, presets, pane builder)
-│   ├── popup.html       # Mini toolbar za popup prozore
-│   └── style.css        # Tamna tema, CSS varijable
-└── assets/
-    └── icon.ico
+   ├── index.html       # Glavni UI
+   ├── app.js           # Renderer logika (toolbar, presets, pane builder)
+   ├── popup.html       # Mini toolbar za popup prozore
+   └── style.css        # Tamna tema, CSS varijable
 ```
 
 ---
