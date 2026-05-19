@@ -1,0 +1,36 @@
+# Zavisnosti
+node_modules/
+
+# Build output
+dist/
+out/
+
+# Electron builder cache
+.cache/
+build/
+
+# State fajlovi (korisnikovi podaci, ne idu u repo)
+state.json
+
+# OS fajlovi
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Temp
+*.tmp
+*.temp
