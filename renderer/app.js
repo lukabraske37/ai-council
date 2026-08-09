@@ -38,9 +38,6 @@ window.api.onInit((savedState, ais) => {
   renderPresets();     // Prikaži preset dugmiće (Research, Writing, Mixed...)
   renderPaneBuilder(); // Prikaži kontrole za izbor AI-eva i naloga
   applyPanes();        // Učitaj panele u Electron BrowserView-ove
-
-  // Initialize Agent panel (defined in agent.js)
-  if (window._initAgent) window._initAgent(ais);
 });
 
 // Kad se prozor maximize/unmaximize, promeni ikonu dugmeta
@@ -151,7 +148,7 @@ function renderPaneBuilder() {
     // Izbor naloga (Nalog 1 do Nalog 10)
     // Svaki nalog = posebna Electron particija = odvojena browser sesija / kolačići
     const slotSelect = makeSelect(
-      Array.from({ length: 10 }, (_, s) => ({ value: s, label: `Nalog ${s + 1}` })),
+      Array.from({ length: 50 }, (_, s) => ({ value: s, label: `Nalog ${s + 1}` })),
       pane.slot || 0,
       'sel-slot'
     );
@@ -231,7 +228,7 @@ function renderModal() {
       const paneRow = el('div', 'm-pane-row');
       const aiSel   = makeSelect(AIS.map(a => ({ value: a.id, label: a.label })), pane.aiId, 'sel-ai');
       const slotSel = makeSelect(
-        Array.from({ length: 10 }, (_, s) => ({ value: s, label: `Nalog ${s + 1}` })),
+        Array.from({ length: 50 }, (_, s) => ({ value: s, label: `Nalog ${s + 1}` })),
         pane.slot || 0,
         'sel-slot'
       );
