@@ -20,6 +20,8 @@
 
 </div>
 
+![AI Council screenshot](screenshot.png)
+
 ---
 
 ## 🧠 Šta je AI Council?
