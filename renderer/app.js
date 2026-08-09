@@ -38,6 +38,9 @@ window.api.onInit((savedState, ais) => {
   renderPresets();     // Prikaži preset dugmiće (Research, Writing, Mixed...)
   renderPaneBuilder(); // Prikaži kontrole za izbor AI-eva i naloga
   applyPanes();        // Učitaj panele u Electron BrowserView-ove
+
+  // Initialize Agent panel (defined in agent.js)
+  if (window._initAgent) window._initAgent(ais);
 });
 
 // Kad se prozor maximize/unmaximize, promeni ikonu dugmeta
